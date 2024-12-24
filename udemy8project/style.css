@@ -1,0 +1,50 @@
+* {
+  font-family: sans-serif;
+}
+nav {
+  text-transform: uppercase;
+  display: flex;
+  font-weight: bolder;
+  padding-top: 20px;
+  justify-content: space-between;
+}
+.nav1st {
+  padding-left: 100px;
+}
+.nav2nd {
+  padding-right: 100px;
+}
+button {
+  border: none;
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 98, 0);
+  border-radius: 3px;
+  width: 170px;
+  height: 40px;
+  font-weight: bold;
+  color: #fff;
+  cursor: pointer;
+}
+header {
+  position: relative;
+  background-image: linear-gradient(to right, rgba(7, 7, 7, 0.47), rgba(3, 3, 3, 0.774)),
+    url(foodiegirl.jpg);
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+}
+h1 {
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+p {
+  line-height: 1.6;
+}
+.header-part {
+  position: absolute;
+  width: 750px;
+  padding-left: 200px;
+  padding-top: 100px;
+}
